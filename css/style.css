@@ -23,7 +23,7 @@ html, body {
     align-items: center;
 }
 
-#var-presentacion {
+.var-presentacion {
     display: flex;
     flex-direction: column;
     height: 200px;
@@ -33,7 +33,7 @@ html, body {
     margin: 15px;
 }
 
-#var-presentacion img {
+.var-presentacion img {
     display: flex;
     border-radius: 100%;
     height: 100px;
@@ -41,14 +41,14 @@ html, body {
     margin: 20px;
 }
 
-#var-info {
+.var-info {
     display: flex;
     flex-direction: column;
     margin: 15px;
     align-items: center;
 }
 
-#var-info img {
+.var-info img {
     display: flex;
     height: 40px;
     width: 40px;
@@ -56,7 +56,7 @@ html, body {
     margin: 15px;
 }
 
-#var-info a {
+.var-info a {
     display: flex;
     height: 35px;
     width: 200px;
@@ -67,11 +67,17 @@ html, body {
     align-items: center;
 }
 
-#var-info a:hover {
+.var-info .Github:hover {
+    background-color: transparent;
+    width: auto;
+}
+
+.var-info a:hover {
     background-color: rgb(204, 200, 170);
     color: black;
     border-radius: 15px;
 }
+
 
 .mas-contacto {
     display: flex;
