@@ -4,19 +4,29 @@
     margin: 0;
 }
 
-#contenedor-presentacion {
-    background-color: aqua;
+html, body {
+    background-color: rgb(241, 239, 239);
+    height: 100%;
+}
+
+.padre-presentacion {
+    height: 100%;
+}
+
+
+.contenedor-presentacion {
+    background-color: rgb(25, 23, 23);
     display: flex;
-    height: 800px;
+    height: 100%;
     width: 230px;
     flex-direction: column;
+    align-items: center;
 }
 
 #var-presentacion {
     display: flex;
-    height: 300px;
-    width: 100px;
     flex-direction: column;
+    height: 200px;
     padding: 0px;
     border-radius: 15px;
     align-items: center;
@@ -29,4 +39,84 @@
     height: 100px;
     width: 100px;
     margin: 20px;
+}
+
+#var-info {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    align-items: center;
+}
+
+#var-info img {
+    display: flex;
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    margin: 15px;
+}
+
+#var-info a {
+    display: flex;
+    height: 35px;
+    width: 200px;
+    margin: 15px;
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+#var-info a:hover {
+    background-color: rgb(204, 200, 170);
+    color: black;
+    border-radius: 15px;
+}
+
+.mas-contacto {
+    display: flex;
+    height: 40px;
+    width: 200px;
+    color: white;
+    justify-content: center;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.proyectos {
+    display: flex;
+    justify-content: right;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.contenedor-proyecto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 250px;
+    width: 380px;
+    margin: 15px;
+    background-color: rgb(125, 124, 124);
+    border-radius: 7px;
+}
+
+.perfil {
+    justify-content: right;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.sobre-mi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    width: 400px;
+    background-color: rgb(125, 124, 124);
+    border-radius: 7px;
 }
