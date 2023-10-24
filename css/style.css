@@ -18,7 +18,7 @@ html, body {
     background-color: rgb(25, 23, 23);
     display: flex;
     height: 100%;
-    width: 230px;
+    width: 15%;
     flex-direction: column;
     align-items: center;
 }
@@ -91,11 +91,12 @@ html, body {
 
 .proyectos {
     display: flex;
-    justify-content: right;
+    justify-content: space-between;
     position: fixed;
     top: 0;
-    left: 0;
+    left: 15%;
     right: 0;
+    flex-wrap: wrap;
 }
 
 .contenedor-proyecto {
