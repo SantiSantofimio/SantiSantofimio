@@ -11,10 +11,11 @@
 <body>
     <header class="padre-presentacion">
         <div class="contenedor-presentacion">
-            <nav class="var-presentacion">
+            <nav class="nav-perfil">
                 <a id="img-perfil" href="#seccion-perfil">
                     <figure>
                         <img src="./images/me/me.jpg" alt="Foto de perfil">
+                        <p class="nom-perfil">Perfil</p>
                     </figure>
                 </a>
             </nav>
@@ -24,8 +25,9 @@
                         <img src="./images/github-logo-png-2.webp" alt="Github">
                         </a>
                     </figure>
-                <a href="#contacto">Contacto</a>
-                <a href="#sobre-mi">Más sobre mi</a>
+                <a id="proyectos" href="#seccion-proyectos">Proyectos</a>
+                <a id="contacto"  href="#seccion-contacto">Contacto</a>
+                <a id="sobre-mi" href="#seccion-sobre-mi">Más sobre mi</a>
             </nav>
             <nav class="mas-contacto">
                 <h4>Correo electronico</h4>
@@ -34,6 +36,12 @@
         </div>
     </header>
     <main>
+        <section class="perfil" id="seccion-perfil">
+            <div class="info-perfil">
+                <h1>Este es mi perfil</h1>
+                <p>Esta es una pequeña descripcion sobre mi, mis proyectos y mi desenpeño</p>
+            </div>
+        </section>
         <section class="proyectos" id="seccion-proyectos">
             <div class="contenedor-proyecto">
                 <h2>Proyecto 1</h2>
@@ -52,10 +60,16 @@
                 <p>Este es mi tercer proyecto</p>
             </div>
         </section>
-        <section class="perfil" id="seccion-perfil">
-            <div class="sobre-mi">
-                <h1>Este es mi perfil</h1>
-                <p>Esta es una pequeña descripcion sobre mi, mis proyectos y mi desenpeño</p>
+        <section class="contacto" id="seccion-contacto">
+            <div class="info-perfil">
+                <h1>Puedes contactarme a travez de estos medios</h1>
+                <p>Aqui incluyo, nro de telefono, redes sociales, correo, y un formulario de contacto</p>
+            </div>
+        </section>
+        <section class="sobre-mi" id="seccion-sobre-mi">
+            <div class="info-perfil">
+                <h1>Estos son algunos proyectos personales</h1>
+                <p>Aqui vas a encontrar más informacion personal sobre mi, y todos mis proyecctos personales no relacionados a la programación</p>
             </div>
         </section>
     </main>
