@@ -107,8 +107,7 @@ html, body {
 }
 
 .proyectos {
-    display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     position: fixed;
     top: 0;
     left: 15%;
@@ -126,6 +125,24 @@ html, body {
     background-color: rgb(125, 124, 124);
     border-radius: 7px;
     font-size: 1.4rem;
+}
+
+.contacto {
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    left: 15%;
+    right: 0;
+    margin-top: 20px;
+}
+
+.sobre-mi {
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    left: 15%;
+    right: 0;
+    margin-top: 20px;
 }
 
 .perfil {
