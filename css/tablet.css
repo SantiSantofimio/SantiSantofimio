@@ -1,0 +1,57 @@
+.nav-perfil img {
+    height: 50px;
+    width: 50px;
+    padding: 7px;
+}
+.var-info a {
+    margin: 7px;
+    font-size: 1.2rem;
+}
+.var-info img {
+    margin: 10px;
+    height: 25px;
+    width: 25px;
+}
+.contenedor-proyecto {
+    width: 70%;
+}
+@media (min-width: 700px) {
+    .var-info a {
+        margin: 12px;
+        padding: 7px;
+        font-size: 1.2rem;
+    }
+    .var-info img {
+        margin: 10px;
+        height: 25px;
+        width: 25px;
+    }
+    .contenedor-proyecto {
+        width: 65%;
+    }
+    .info-proyectos {
+        height: 40px;
+        padding: 10px;
+        margin: 15px;
+    }
+}
+@media (min-width: 800px) {
+    .var-info a {
+        margin: 15px;
+        padding: 12px;
+        font-size: 1.2rem;
+    }
+    .var-info img {
+        margin: 10px;
+        height: 25px;
+        width: 25px;
+    }
+    .contenedor-proyecto {
+        width: 60%;
+    }
+    .info-proyectos {
+        height: 40px;
+        padding: 10px;
+        margin: 15px;
+    }
+}

@@ -4,78 +4,85 @@
     margin: 0;
 }
 
-body {
+html, body {
     background-color: rgb(241, 239, 239);
     min-height: 100vh;
-}
-html {
     font-size: 62.5%;
 }
 
-.padre-presentacion {
-    height: 100vh;
+.info-proyectos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 30px;
+    width: 100vw;
+    margin: 10px;
+    font-size: 1rem;
 }
 
+.padre-presentacion {
+    height: 10vh;
+}
 
 .contenedor-presentacion {
     background-color: rgb(25, 23, 23);
     display: flex;
-    height: 100vh;
-    width: 15%;
-    flex-direction: column;
+    height: inherit;
+    width: 100%;
+    flex-direction: row;
     align-items: center;
+    justify-content: space-between;
 }
 
 .nav-perfil {
     display: flex;
-    flex-direction: column;
-    height: 30vh;
+    flex-direction: row;
+    height: inherit;
     padding: 5px;
     border-radius: 15px;
     align-items: center;
-    margin: 15px;
+    margin: 5px;
 }
 
 .nav-perfil img {
     display: flex;
     border-radius: 100%;
-    height: 100px;
-    width: 100px;
-    margin: 20px;
+    height: 50px;
+    width: 50px;
+    padding: 5px;
 }
 
 .nav-perfil a {
     text-decoration: none;
     text-align: center;
     color: white;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .var-info {
     display: flex;
-    justify-content: center;
-    margin: 15px;
+    flex-wrap: wrap;
+    flex-direction: row;
     align-items: center;
 }
 
 .var-info img {
     display: flex;
-    height: 40px;
-    width: 40px;
+    height: 20px;
+    width: 20px;
     border-radius: 100%;
-    margin: 15px;
+    margin: 5px;
 }
 
 .var-info a {
     display: flex;
-    height: 35px;
-    width: 70%;
-    margin: 15px;
+    height: 15px;
+    margin: 4px;
     text-decoration: none;
     color: white;
     justify-content: center;
     align-items: center;
-    font-size: 1.4rem;
+    font-size: 1rem;
 }
 
 .var-info .Github:hover {
@@ -88,49 +95,14 @@ html {
     color: black;
     border-radius: 15px;
 }
+
+
 .correo {
-    display: flex;
-    height: 80px;
-    width: 100vw;
-    color: white;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-
-.correo h4 {
-    font-size: 1.3rem;
-}
-
-.correo p {
-    font-size: 1rem;
-}
-
-.mas-contacto {
-    display: flex;
-    height: 40px;
-    width: 200px;
-    color: white;
-    justify-content: center;
-    flex-direction: column;
-    margin: 30px;
-}
-
-.mas-contacto h4 {
-    font-size: 1.4rem;
-}
-
-.mas-contacto p {
-    font-size: 1.4rem;
+    display: none;
 }
 
 .proyectos {
     justify-content: space-around;
-    position: fixed;
-    top: 0;
-    left: 15%;
-    right: 0;
     flex-wrap: wrap;
 }
 
@@ -139,7 +111,8 @@ html {
     flex-direction: column;
     align-items: center;
     height: 250px;
-    width: 380px;
+    min-height: 250px;
+    width: 100%;
     margin: 15px;
     background-color: rgb(125, 124, 124);
     border-radius: 7px;
