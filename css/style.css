@@ -16,6 +16,9 @@ html {
     height: 100vh;
 }
 
+.info-proyectos {
+    height: 150px;
+}
 
 .contenedor-presentacion {
     background-color: rgb(25, 23, 23);
