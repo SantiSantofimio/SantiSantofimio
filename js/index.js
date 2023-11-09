@@ -49,6 +49,7 @@ Inicio = ()=> {
 }
 
 seccionPerfil = ()=> {
+    clickInicio.addEventListener('click', Inicio)
     sectionPerfil.style.display = 'flex'
     sectionProyectos.style.display = 'none'
     sectionContacto.style.display = 'none'

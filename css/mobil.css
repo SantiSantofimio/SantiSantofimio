@@ -231,26 +231,27 @@ html, body {
 }
 
 .facebook {
-    height: 35px;
-    width: 35px;
+    height: 28px;
+    width: 28px;
     border-radius: 100%;
 }
 
 .goFacebook {
-    margin: 7px;
+    margin: 10px;
     text-decoration: none;
     color: black;
+    font-size: .7rem;
 }
 
 .instagram {
-    height: 45px;
-    width: 45px;
+    height: 35px;
+    width: 35px;
 }
 
 .goInstagram {
-    margin: 5px;
     text-decoration: none;
     color: black;
+    font-size: .7rem;
 }
 
 .whatsapp {
@@ -268,6 +269,25 @@ html, body {
 .whatsapp img {
     height: 30px;
     width: 30px;
+}
+
+.presentacion {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.presentacion p:nth-child(1) {
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 10px;
+}
+
+.presentacion p:nth-child(2) {
+    font-size: 1.2rem;
+    margin-top: 3rem;
 }
 
 .info-perfil {

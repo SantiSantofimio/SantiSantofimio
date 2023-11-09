@@ -192,3 +192,36 @@ html {
     text-align: center;
     font-size: 1.4rem;
 }
+
+.goFacebook {
+    margin: 7px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.4rem;
+}
+
+.goInstagram {
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.4rem;
+}
+
+.presentacion {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.presentacion p:nth-child(1) {
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 10px;
+}
+
+.presentacion p:nth-child(2) {
+    font-size: 1.2rem;
+    margin-top: 3rem;
+}
