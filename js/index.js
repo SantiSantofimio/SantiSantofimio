@@ -7,7 +7,6 @@ let sectionPerfil = document.getElementById('seccion-perfil')
 let sectionProyectos = document.getElementById('seccion-proyectos')
 let sectionContacto = document.getElementById('seccion-contacto')
 let sectionSobreMi = document.getElementById('seccion-sobre-mi')
-let contenedorProyectos = document.getElementById('contenedor-proyectos')
 
 let proyectos = []
 
@@ -37,14 +36,25 @@ Inicio = ()=> {
     sectionSobreMi.style.display = 'none'
     sectionProyectos.style.display = 'flex'
 
+    sectionProyectos.innerHTML = `
+        <div class='presentacion-proyectos'>
+            <h2>Mis proyectos</h2>
+            <p> En esta seccion encontrarás mis proyectos más relevantes </p>
+        </div>
+        <div class="info-proyectos"></div>
+        `
+        
+    let contenedorProyectos = document.querySelector('.info-proyectos')
+
+
     proyectos.forEach((proyecto) => {
-        tarjetaProyecto = `
-        <div class="contenedor-proyecto">
+        let tarjetaProyecto = `
+        <div class="tarjeta-proyecto">
                 <h2>${proyecto.title}</h2>
                 <p>${proyecto.description}</p>
         </div>
         `
-        sectionProyectos.innerHTML += tarjetaProyecto
+        contenedorProyectos.innerHTML += tarjetaProyecto
     });
 }
 
