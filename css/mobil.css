@@ -18,7 +18,7 @@ html, body {
 }
 
 .padre-presentacion {
-    height: 10vh;
+    height: 13vh;
 }
 
 .contenedor-presentacion {
@@ -58,9 +58,8 @@ html, body {
 
 .var-info {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
     align-items: center;
+    align-content: center;
 }
 
 .var-info img {
@@ -82,17 +81,45 @@ html, body {
     font-size: 1rem;
 }
 
-.var-info .Github:hover {
-    background-color: transparent;
-    width: auto;
-}
-
 .var-info a:hover {
     background-color: var(--secundario);
     color: var(--cuarto);
     border-radius: 15px;
 }
 
+.nav-contenido {
+    display: none;
+}
+
+.icono-menu {
+    display: flex;
+    margin: 0 17px 10px 0;
+    height: 25px;
+    width: 35px;
+}
+
+.icono-menu img {
+    height: 25px;
+    width: 25px;
+}
+
+.flecha {
+    display: none;
+    align-items: center;
+    height: 13vh;
+    width: 20px;
+    margin-right: 4px;
+}
+
+.flecha img {
+    height: 10px;
+    width: 10px;
+}
+
+.var-info .Github:hover {
+    background-color: transparent;
+    width: auto;
+}
 
 .correo {
     display: none;
