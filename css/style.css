@@ -28,6 +28,13 @@ html {
     height: 150px;
 }
 
+.fondo-1 {
+    position: absolute;
+    top: -130px;
+    left: 800px;
+    right: 0;
+}
+
 .contenedor-presentacion {
     background-color: var(--cuarto);
     display: flex;
@@ -156,6 +163,7 @@ html {
     flex-wrap: wrap;
     flex-direction: row;
     align-content: center;
+    justify-content: center;
     margin: 35px 0 0 25px;
 }
 
@@ -164,7 +172,7 @@ html {
     flex-direction: column;
     align-items: center;
     height: 250px;
-    width: 30%;
+    width: 40%;
     background-color: var(--tercero);
     border-radius: 7px;
     font-size: 1.4rem;

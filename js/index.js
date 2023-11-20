@@ -55,6 +55,8 @@ Inicio = ()=> {
         <div class='presentacion-proyectos'>
             <h2>Mis proyectos</h2>
             <p> En esta seccion encontrarás mis proyectos más relevantes </p>
+            <div class="fondo-1"></div>
+            <div class="fondo-2"></div>
         </div>
         <div class="info-proyectos"></div>
         `;

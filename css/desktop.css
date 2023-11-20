@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --primario: #F1EFEF;
+    --secundario: #CCC8AA;
+    --tercero: #7d7c7cb6;
+    --cuarto: #191717;
+}
+
+body {
+    background-color: var(--primario);
+    min-height: 100vh;
+}
+html {
+    font-size: 62.5%;
+    min-height: 100vh;
+}
+
+.fondo-1 {
+    position: absolute;
+    top: -130px;
+    left: 1180px;
+    right: 0;
+}

@@ -132,6 +132,7 @@ html, body {
 }
 
 .presentacion-proyectos {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -139,6 +140,37 @@ html, body {
     width: 100vw;
     height: 70px;
     font-size: 1rem;
+    overflow: hidden;
+}
+
+.presentacion-proyectos p, .presentacion-proyectos h2 {
+    z-index: 1;
+}
+
+.fondo-1 {
+    position: absolute;
+    background-color: var(--secundario);
+    height: 100px;
+    width: 200px;
+    transform: rotate(45deg);
+    transform-origin: top left;
+    top: -70px;
+    left: 320px;
+    right: 0;
+    z-index: 0;
+}
+
+.fondo-2 {
+    position: absolute;
+    background-color: var(--secundario);
+    height: 200px;
+    width: 100px;
+    transform: rotate(45deg);
+    transform-origin: top left;
+    top: -70px;
+    left: 0;
+    right: 0px;
+    z-index: 0;
 }
 
 .info-proyectos {
@@ -378,4 +410,22 @@ button::before {
 }
 button:hover::before {
     width: 9rem;
+}
+
+@media (min-width: 375px) {
+    .fondo-1 {
+        position: absolute;
+        top: -70px;
+        left: 380px;
+        right: 0;
+    }
+}
+
+@media (min-width: 425px) {
+    .fondo-1 {
+        position: absolute;
+        top: -70px;
+        left: 430px;
+        right: 0;
+    }
 }
